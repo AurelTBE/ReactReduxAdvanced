@@ -1,5 +1,12 @@
-# React-Redux-Starter-Create-React-App
+# Starter React V16 + Redux
 
-Ce repo est une copie du projet  React-Redux-Starter seulement celui ci a été installé avec la commande create-react-app
++ ```npm install```
++ ```npm start```
 
-De plus les versions de react et redux y sont plus récente.
+Si vous souhaitez générer votre app vous même il vous faudra juste node avec une version >=6 et npm puis :
++ ```npm install -g npx```
++ ```npm install -g react-create-app```
++ ```npx create-react-app votre-nom-d-app```
+
++ ```cd votre-nom-d-app ```
++ ```npm start```

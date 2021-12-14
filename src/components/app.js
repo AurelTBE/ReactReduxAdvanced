@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-
+import React, { Component } from 'react'
+require("../style.css");
 export default class App extends Component {
   render() {
     return (
-      <div>React Redux ca marche</div>
-    );
+      "Ceci est une app créée avec create-react-app"
+    )
   }
 }
