@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "../components/home";
 import TodoApp from "./todo-app"
 import requireAuth from '../helpers/require-authentification';
+import Ressources from './ressources';
 require("../style.css");
 export default class App extends Component {
   render() {
@@ -12,7 +13,7 @@ export default class App extends Component {
         < Header />
         <div className="container body_content">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Ressources} />
             <Route path="/ressources" component={requireAuth(TodoApp)} />
           </Switch>
         </div>
