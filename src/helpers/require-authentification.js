@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from "react-router-dom";
 
@@ -18,7 +18,7 @@ export default function (Component) {
         }
 
         render() {
-            return <Component {...this.props} />
+            return this.props.isLoggedIn && <Component {...this.props} />
         }
     }
 
